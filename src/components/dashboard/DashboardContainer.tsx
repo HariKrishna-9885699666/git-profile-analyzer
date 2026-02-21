@@ -8,6 +8,7 @@ import { LanguageChart } from "@/components/dashboard/LanguageChart";
 import { RepoStatsChart } from "@/components/dashboard/RepoStatsChart";
 import { CommitGraph } from "@/components/dashboard/CommitGraph";
 import { Heatmap } from "@/components/dashboard/Heatmap";
+import { RepoList } from "@/components/dashboard/RepoList";
 import { Github, Download, Share2, Loader2, Calendar } from "lucide-react";
 import Link from "next/link";
 import { toPng } from 'html-to-image';
@@ -141,6 +142,10 @@ export function DashboardContainer({
         
         <div className="w-full">
           <Heatmap contributions={contributions} />
+        </div>
+
+        <div className="border-t border-border/50 pt-8 mt-8">
+          <RepoList repos={filteredRepos} username={username} totalRepos={profile.public_repos} />
         </div>
       </div>
     </div>

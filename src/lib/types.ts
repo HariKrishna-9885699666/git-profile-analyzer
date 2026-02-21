@@ -22,6 +22,7 @@ export interface GitHubRepo {
   full_name: string;
   html_url: string;
   description: string | null;
+  homepage: string | null;
   fork: boolean;
   created_at: string;
   updated_at: string;
