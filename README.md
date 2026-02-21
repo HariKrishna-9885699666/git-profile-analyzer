@@ -4,8 +4,6 @@ A high-performance GitHub profile visualization tool built with **Next.js 16**, 
 
 **Live Demo**: [git-profile-analyzer-nextjs.netlify.app](https://git-profile-analyzer-nextjs.netlify.app/)
 
-![Demo](https://via.placeholder.com/800x450?text=Git+Profile+Analyzer+Preview)
-
 ## 🚀 Features
 
 - **Dashboard Visualizations**: Interactive charts for language distribution, repo stats, and commit trends.
